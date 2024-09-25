@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h1>IMC</h1>
+
+  <label for="altura">Altura (m):</label>
+  <input type="text" id="alturaInput">
+
+  <label for="peso">Peso (kg):</label>
+  <input type="text" id="pesoInput">
+
+  <input type="button" onclick="calcularImc()" value="Calcular IMC">
+
+  <pre>
+  <h1>
+  |    IMC          |          CATEGORIA                        |<br>
+  |--------------------------------------------------------------
+  | Até 18,5        |  Abaixo do peso                           |<br>
+  | De 18,5 - 24,9  |  Saudável                                 |
+  | De 25,0 - 29,9  |  Sobrepeso                                |
+  | De 30,0 - 39,9  |  Obeso                                    |
+  | Acima de 40     |  Extremo ou alto risco de obesidade       |
+  </pre>
+  <h1>
+
+  <div id="resultado"></div>
+
+  <script>
+    function calcularImc() {    //parseFloat converte de string para float
+        var altura = parseFloat(document.getElementById("alturaInput").value);
+        var peso = parseFloat(document.getElementById("pesoInput").value);
+        var resultadoDiv = document.getElementById("resultado");
+
+        if (altura > 0 && peso > 0) {
+            var imc = peso / (altura * altura);
+            // toFixed(2) limita de apareça apenas duas casa decimais
+            if (imc < 18.5) {
+                resultadoDiv.innerHTML = "IMC: " + imc.toFixed(2) + " - Abaixo do peso";
+            } else if (imc >= 18.5 && imc <= 24.9) {
+                resultadoDiv.innerHTML = "IMC: " + imc.toFixed(2) + " - Saudável";
+            } else if (imc >= 25 && imc <= 29.9) {
+                resultadoDiv.innerHTML = "IMC: " + imc.toFixed(2) + " - Sobrepeso";
+            } else if (imc >= 30 && imc <= 39.9) {
+                resultadoDiv.innerHTML = "IMC: " + imc.toFixed(2) + " - Obeso";
+            } else {
+                resultadoDiv.innerHTML = "IMC: " + imc.toFixed(2) + " - Extremo ou alto risco de obesidade";
+            }
+        } else {
+            resultadoDiv.innerHTML = "Por favor, informe valores válidos para altura e peso.";
+        }
+    }
+  </script>
+</body>
+</html>

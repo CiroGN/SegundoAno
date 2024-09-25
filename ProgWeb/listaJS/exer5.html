@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+function calcularPotencia(base, expoente) {
+  let resultado = 1;
+  for (let i = 0; i < expoente; i++) {
+    resultado *= base;
+  }
+  return resultado;
+}
+
+document.write("<h1>calculo com expoente</h1>");
+
+const base = 2;
+
+for (let expoente = 0; expoente <= 8; expoente++) {
+  document.write(base + "<sup>" + expoente + "</sup> = " + calcularPotencia(base, expoente) + "<br>");
+}
+</script>
+
+</body>
+</html>

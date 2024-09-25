@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<body>
+<input type="button" onclick="Prompt()" value="aperte"></input>
+<script>
+function Prompt() {
+
+  var n1 = prompt("número 1:");
+  var n2 = prompt("número 2:");
+  var n3 = prompt("número 3:");
+
+  if (n1 === n2 && n2 === n3) {
+    alert("Todos os números têm o mesmo valor.");
+  } else {
+    var maior = n1;
+    if (n2 > maior) {
+      maior = n2;
+    }
+    if (n3 > maior) {
+      maior = n3;
+    }
+
+    var menor = n1;
+    if (n2 < menor) {
+      menor = n2;
+    }
+    if (n3 < menor) {
+      menor = n3;
+    }
+    alert("O maior número é " + maior + " e o menor número é " + menor);
+  }
+}
+</script>
+
+</body>
+</html>

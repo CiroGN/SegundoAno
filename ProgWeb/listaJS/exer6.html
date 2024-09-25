@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    label {
+      color: #3366cc;
+      font-family: Arial, sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <form action="recebe_dados.jsp" method="post" id="form_usuario" onsubmit="return validarFormulario()">
+    <h1>Cadastro de Clientes</h1>
+    <hr>
+    <label for="nome">Nome: </label>
+    <input type="text" id="nome"><br>
+
+    <label for="email">Digite seu e-mail</label>
+    <input type="text" id="email">
+
+    <label for="senhaEmail">Senha do e-mail:</label>
+    <input type="password" id="senhaEmail"><br>
+
+    <label for="sexo">Sexo:</label>
+    <select id="sexo">
+      <option value="" disabled selected>Selecione</option>
+      <option value="Masculino">Masculino</option>
+      <option value="Feminino">Feminino</option>
+    </select><br>
+
+    <label for="produto">Produtos Comprados: </label><br>
+    <input type="checkbox" id="produto1" name="produto" value="Computador">Computador<br>
+    <input type="checkbox" id="produto2" name="produto" value="Impressora">Impressora<br>
+    <input type="checkbox" id="produto3" name="produto" value="Monitor">Monitor<br>
+    <input type="checkbox" id="produto4" name="produto" value="Teclado">Teclado<br>
+
+    <label for="estado">Estado: </label>
+    <input type="search" id="estado" value=""><br>
+
+    <label for="historico">Histórico do cliente</label>
+    <input type="tel" id="historico"><br>
+
+    <input type="file" id="arquivo">
+    <input type="submit" value="enviar">
+    <input type="reset" value="limpar">
+  </form>
+</body>
+
+</html>
