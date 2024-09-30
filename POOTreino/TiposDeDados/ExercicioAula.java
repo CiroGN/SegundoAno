@@ -1,7 +1,7 @@
 package SegundoAno.POOTreino.TiposDeDados;
 
 public class ExercicioAula {
-    public static void nada(String[] args){
+    public static void ex1(String[] args){
         String nome, curso; 
         String[] disciplinas = {"POO", "IDE", "Coisa"};
         nome = "Ciro "; curso = "BCC ";
@@ -13,7 +13,7 @@ public class ExercicioAula {
     
         }
     }
-    public static void main(String[] args) {
+    public static void ex2(String[] args) {
         String marca, modelo;
         int ano;
         double valor = 75.389;
