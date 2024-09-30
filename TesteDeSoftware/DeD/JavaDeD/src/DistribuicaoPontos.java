@@ -1,3 +1,5 @@
+package TesteDeSoftware.DeD.JavaDeD.Classe;
+
 import java.text.Normalizer;
 import java.util.Map;
 import java.util.Scanner;

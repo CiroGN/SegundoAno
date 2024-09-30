@@ -1,3 +1,4 @@
+package TesteDeSoftware.DeD.JavaDeD.Classe;
 public class Classe {
     private String nome;
     private int pontosDeVidaBase;
