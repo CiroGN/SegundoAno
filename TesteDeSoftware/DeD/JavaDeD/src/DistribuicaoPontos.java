@@ -1,3 +1,5 @@
+package SegundoAno.TesteDeSoftware.DeD.JavaDeD.src;
+
 import java.text.Normalizer;
 import java.util.Map;
 import java.util.Scanner;
@@ -47,7 +49,9 @@ public class DistribuicaoPontos {
                 System.out.println("Habilidade inválida. Certifique-se de que a habilidade esteja correta.");
             }
         }
+        scanner.close();
     }
+    
 
     // Cálculo do custo para aumentar uma habilidade
     private int calcularCusto(int novoValor) {

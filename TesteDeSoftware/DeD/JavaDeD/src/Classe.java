@@ -1,3 +1,4 @@
+package SegundoAno.TesteDeSoftware.DeD.JavaDeD.src;
 public class Classe {
     private String nome;
     private int pontosDeVidaBase;
