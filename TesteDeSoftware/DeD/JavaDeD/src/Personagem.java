@@ -1,4 +1,4 @@
-package TesteDeSoftware.DeD.JavaDeD.Classe;
+package SegundoAno.TesteDeSoftware.DeD.JavaDeD.src;
 
 import java.util.Map;
 import java.util.HashMap;
