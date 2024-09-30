@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 # imagem original
-img = cv2.imread('C:/Users/cirog/source/2Ano/VisaoComp/Aula2/praia.jpg')
+img = cv2.imread('C:/Users/cirog/source/SegundoAno/VisaoComp/Aula2/praia.jpg')
 cv2.imshow('praia', img)
 cv2.waitKey(0)
 #conversao para formato RGB
