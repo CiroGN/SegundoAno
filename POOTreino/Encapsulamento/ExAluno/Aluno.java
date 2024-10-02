@@ -20,7 +20,7 @@ public class Aluno {
         return idade;
     }
     public void setIdade(int idade) {
-        if (idade <0) {
+        if (idade < 0) {
             System.out.println("idade não permitida");
             return;
         } else{
