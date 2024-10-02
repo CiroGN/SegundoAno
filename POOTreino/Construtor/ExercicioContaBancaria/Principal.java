@@ -1,4 +1,4 @@
-package SegundoAno.POOTreino.ExercicioContaBancaria;
+package POOTreino.Construtor.ExercicioContaBancaria;
 import java.util.Scanner;
 
 public class Principal {
