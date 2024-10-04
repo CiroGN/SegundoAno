@@ -1,3 +1,5 @@
+package TesteDeSoftware.DeD.DeDFinal.src.Main;
+
 public interface InterfaceAtributosPersonagem {
     public void aplicaBonusRacial();
     public void mostraAtributosEvalores();

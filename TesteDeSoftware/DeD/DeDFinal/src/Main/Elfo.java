@@ -1,21 +1,18 @@
-public class Humano implements InterfaceAtributosPersonagem{
+package TesteDeSoftware.DeD.DeDFinal.src.Main;
+
+public class Elfo implements InterfaceAtributosPersonagem{
     protected DistribuirPontosIniciais distribuirPontosIniciais;
     protected DistribuirEscolha27 distribuirEscolha27;
     protected Atributo atributo;
-    protected int forcaExtra = 1;
-    protected int destrezaExtra = 1;
-    protected int constituicaoExtra = 1;
-    protected int inteligenciaExtra = 1;
-    protected int sabedoriaExtra = 1;
-    protected int carismaExtra = 1;
-    protected int pontosVidaFinal;
+        protected int destrezaExtra = 2;
+        protected int pontosVidaFinal;
 
-    public Humano(){
+    public Elfo(){
         distribuirPontosIniciais = new DistribuirPontosIniciais();
         distribuirEscolha27 = new DistribuirEscolha27();
         atributo = new Atributo();
     }
-
+        
     // Designa os 27 pontos
     @Override
     public void atribuiPontos(int forca, int destreza, int constituicao, int inteligencia, int sabedoria, int carisma){
@@ -27,18 +24,15 @@ public class Humano implements InterfaceAtributosPersonagem{
         atributo.carisma = carisma;
         distribuirEscolha27.adicionaPontosAtributo(forca, destreza, constituicao, inteligencia, sabedoria, carisma);
     }
-
+        
     // APLICA BÔNUS RACIAL
     @Override
     public void aplicaBonusRacial(){
+        System.out.println("\n=========================");
+        System.out.println("+2 de destreza aplicada!");
+        System.out.println("=========================");
         System.out.println();
-        System.out.println("+1 de todos os atributos!");
-        distribuirEscolha27.forca += forcaExtra;
         distribuirEscolha27.destreza += destrezaExtra;
-        distribuirEscolha27.constituicao += constituicaoExtra;
-        distribuirEscolha27.inteligencia += inteligenciaExtra;
-        distribuirEscolha27.sabedoria += sabedoriaExtra;
-        distribuirEscolha27.carisma += carismaExtra;
     }
     @Override
     // MOSTRA ATRIBUTOS E OS RESPECTIVOS VALORES DELES
@@ -50,12 +44,13 @@ public class Humano implements InterfaceAtributosPersonagem{
         System.out.println("Sabedoria: " + distribuirEscolha27.sabedoria);
         System.out.println("Carisma: " + distribuirEscolha27.carisma);
     }
-
+    
     // MODIFICA ATRIBUTOS
     @Override
     public void modificadoresDeAtributo(){
-        System.out.println();
+        System.out.println("\n====================================");
         System.out.println("Atributos modificados com sucesso!!");
+        System.out.println("====================================");
         distribuirEscolha27.forca += distribuirPontosIniciais.calculaModificadorAtributo(distribuirEscolha27.forca);
         distribuirEscolha27.destreza += distribuirPontosIniciais.calculaModificadorAtributo(distribuirEscolha27.destreza);
         distribuirEscolha27.constituicao += distribuirPontosIniciais.calculaModificadorAtributo(distribuirEscolha27.constituicao);
@@ -64,6 +59,8 @@ public class Humano implements InterfaceAtributosPersonagem{
         distribuirEscolha27.carisma += distribuirPontosIniciais.calculaModificadorAtributo(distribuirEscolha27.carisma);
         pontosVidaFinal = 10 + distribuirPontosIniciais.calculaModificadorAtributo(distribuirEscolha27.constituicao)-1;
         // PONTOS DE VIDA
+        System.out.println("====================================");
         System.out.println("Vida: " + pontosVidaFinal);
+        System.out.println("====================================");
     }
 }

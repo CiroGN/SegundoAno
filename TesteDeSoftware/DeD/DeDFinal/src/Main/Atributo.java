@@ -1,3 +1,5 @@
+package TesteDeSoftware.DeD.DeDFinal.src.Main;
+
 import java.util.Map;
 import java.util.List;
 import java.util.ArrayList;
@@ -18,13 +20,14 @@ public class Atributo {
 
     // CHAVE E VALOR = VALOR E CUSTO DO D&D
     Map<Integer, Integer> map = Map.of(
-            8,0,
-            9,1,
-            10,2,
-            11,3,
-            12,4,
-            13,5,
-            14,7,
-            15,9
+        8,0,
+        9,1,
+        10,2,
+        11,3,
+        12,4,
+        13,5,
+        14,7,
+        15,9
     );
 }
+

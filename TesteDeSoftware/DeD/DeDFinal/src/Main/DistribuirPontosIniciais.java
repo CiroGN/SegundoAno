@@ -1,3 +1,5 @@
+package TesteDeSoftware.DeD.DeDFinal.src.Main;
+
 public class DistribuirPontosIniciais {
     public static int calculaModificadorAtributo(int valor) {
         if (valor >= 30) return 10;

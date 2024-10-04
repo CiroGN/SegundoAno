@@ -1,4 +1,15 @@
-package PACKAGE_NAME;
+public class Raca extends Atributo{
+    // VARIÁVEIS DA CLASSE RAÇA
+    protected String tipoRaca;
+    protected float deslocamento;
 
-public class Raca {
+    // ADICIONA TAXA DE DESLOCAMENTO
+    public void taxaDeslocamento(float deslocacao){
+        deslocamento = deslocacao;
+    }
+
+    // MOSTRA INFORMAÇÕES
+    public void mostraInformacoesRaca(){
+        System.out.println("Tipo: " + tipoRaca);
+    }
 }
