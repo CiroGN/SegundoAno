@@ -1,10 +1,14 @@
 import org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 class DistribuirEscolha27Test extends DistribuirEscolha27 {
+
+    @Test
+    @DisplayName("Teste de custo de atributos")
 
     private DistribuirEscolha27 DistribuirEscolha27;
 
