@@ -2,11 +2,11 @@ import numpy as np
 import cv2
 from matplotlib import pyplot as plt
 
-img1 = cv2.imread('C:/Users/cirog/source/SegundoAno/VisaoComp/Aula4/Placas.jpg',0) # queryImage
-img2 = cv2.imread('C:/Users/cirog/source/SegundoAno/VisaoComp/Aula4/Placa.jpg',0) # trainImage
+img1 = cv2.imread('C:/Users/cirog/source/SegundoAno/VisaoComp/Aula4/Placas.jpg',0) # o 0 converte para cinza 
+img2 = cv2.imread('C:/Users/cirog/source/SegundoAno/VisaoComp/Aula4/Placa.jpg',0) 
 
 # Initiate SIFT detector
-sift = cv2.SIFT_create()
+sift = cv2.SIFT()
 
 # find the keypoints and descriptors with SIFT
 kp1, des1 = sift.detectAndCompute(img1,None)
