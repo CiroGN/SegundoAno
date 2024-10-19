@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 #Dados que serão avaliados
-dados_df = pd.read_csv("filmes.csv")
+dados_df = pd.read_csv("C:/Users/cirog/source/SegundoAno/ProbEEstast/ProjetoProbabilidade/filmes.csv")
 
 #INFO GERAL SOBRE OS DADOS:
 # LOCAL ONDE ADQUIRIMOS: KAGGLE - LINK: https://www.kaggle.com/datasets/octopusteam/imdb-top-1000-movies?resource=download
