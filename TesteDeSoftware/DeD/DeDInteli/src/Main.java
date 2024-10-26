@@ -12,5 +12,6 @@ public class Main {
         humano.mostraAtributosEvalores();
         humano.modificadoresDeAtributo();
         humano.mostraAtributosEvalores();
+        humano.calculaPontosVidaFinal();
     }
 }

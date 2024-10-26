@@ -49,21 +49,26 @@ public class Humano implements InterfaceAtributosPersonagem{
         System.out.println("Inteligência: " + distribuirEscolha27.inteligencia);
         System.out.println("Sabedoria: " + distribuirEscolha27.sabedoria);
         System.out.println("Carisma: " + distribuirEscolha27.carisma);
+        System.out.println("Vida: " + calculaPontosVidaFinal());
     }
 
     // MODIFICA ATRIBUTOS
     @Override
     public void modificadoresDeAtributo(){
         System.out.println();
-        System.out.println("Atributos modificados com sucesso!!");
-        distribuirEscolha27.forca += distribuirPontosIniciais.calculaModificadorAtributo(distribuirEscolha27.forca);
-        distribuirEscolha27.destreza += distribuirPontosIniciais.calculaModificadorAtributo(distribuirEscolha27.destreza);
-        distribuirEscolha27.constituicao += distribuirPontosIniciais.calculaModificadorAtributo(distribuirEscolha27.constituicao);
-        distribuirEscolha27.inteligencia += distribuirPontosIniciais.calculaModificadorAtributo(distribuirEscolha27.inteligencia);
-        distribuirEscolha27.sabedoria += distribuirPontosIniciais.calculaModificadorAtributo(distribuirEscolha27.sabedoria);
-        distribuirEscolha27.carisma += distribuirPontosIniciais.calculaModificadorAtributo(distribuirEscolha27.carisma);
-        pontosVidaFinal = 10 + distribuirPontosIniciais.calculaModificadorAtributo(distribuirEscolha27.constituicao)-1;
-        // PONTOS DE VIDA
-        System.out.println("Vida: " + pontosVidaFinal);
+        System.out.println("Estes são os modificadores de atributos");
+        System.out.println("Força: " + distribuirPontosIniciais.calculaModificadorAtributo(distribuirEscolha27.forca));
+        System.out.println("Destreza: " + distribuirPontosIniciais.calculaModificadorAtributo(distribuirEscolha27.destreza));
+        System.out.println("Constituição: " + distribuirPontosIniciais.calculaModificadorAtributo(distribuirEscolha27.constituicao));
+        System.out.println("Inteligência: " + distribuirPontosIniciais.calculaModificadorAtributo(distribuirEscolha27.inteligencia));
+        System.out.println("Sabedoria: " + distribuirPontosIniciais.calculaModificadorAtributo(distribuirEscolha27.sabedoria));
+        System.out.println("Carisma: " + distribuirPontosIniciais.calculaModificadorAtributo(distribuirEscolha27.carisma));
+        System.out.println(" ");
+    }
+
+    @Override
+    public int calculaPontosVidaFinal(){
+        pontosVidaFinal = 10 + distribuirEscolha27.constituicao / 2;
+        return pontosVidaFinal;
     }
 }

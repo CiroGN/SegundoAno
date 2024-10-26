@@ -7,8 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 class DistribuirEscolha27Test extends DistribuirEscolha27 {
 
-    @Test
-    @DisplayName("Teste de custo de atributos")
+    //@DisplayName("Teste de custo de atributos")
 
     private DistribuirEscolha27 DistribuirEscolha27;
 
