@@ -18,7 +18,7 @@ public class Ex5 {
         System.out.println("Conteúdo do Vector: " + numeros);
 
         // Removendo um dos valores (por exemplo, o terceiro valor)
-        numeros.remove(2);  // Remove o valor na posição 2 (índice 2) ou se inserido um exato valor do vetor, este será removido
+        numeros.remove(2.8); // Remove o valor na posição 2 (índice 2) ou se inserido um exato valor do vetor, este será removido
 
         // Exibindo o conteúdo do Vector após a remoção
         System.out.println("Conteúdo do Vector após a remoção: " + numeros);
