@@ -2,7 +2,7 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        InterfaceAtributosPersonagem humano = new Humano();
+        InterfaceAtributosPersonagem humano = new Raca();
         Classe humanoGuerreiro = new Classe("Guerreiro");
         Personagem personagemHumano = new Personagem(humanoGuerreiro, "Bruenor", "Humano");
         personagemHumano.mostraInfo();

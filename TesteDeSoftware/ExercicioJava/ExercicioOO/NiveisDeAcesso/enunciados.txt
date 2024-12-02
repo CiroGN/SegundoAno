@@ -1,0 +1,15 @@
+15.Atributos Private e Métodos Public: Crie uma classe ContaBancaria com um atributo
+saldo privado. Adicione métodos públicos para depositar e sacar, que alteram o saldo com
+segurança.
+
+16.Métodos Protected: Crie uma classe Pessoa com um método protegido
+exibirInformacoes(). Crie uma subclasse Aluno que herda de Pessoa e utiliza
+exibirInformacoes() para exibir dados de um aluno.
+
+17.Uso do Acesso Default (pacote): Crie duas classes Produto e Carrinho no mesmo pacote.
+Defina um método adicionarProduto() em Carrinho que acessa o atributo nome de Produto
+(use o acesso default).
+
+18.Atributos e Métodos Public: Crie uma classe Cliente com atributos nome e cpf públicos.
+Crie outra classe que instancie Cliente e mostre como os atributos são acessados
+diretamente.

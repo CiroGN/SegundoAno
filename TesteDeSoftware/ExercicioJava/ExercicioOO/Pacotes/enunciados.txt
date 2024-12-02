@@ -1,0 +1,8 @@
+19.Organização em Pacotes: Crie um pacote model e adicione uma classe Cliente com
+atributos nome e email. Em um pacote service, crie uma classe ClienteService que possui
+métodos para salvar e excluir um cliente.
+
+20.Acesso entre Pacotes: Crie dois pacotes: financeiro e contabilidade. No pacote financeiro,
+crie uma classe RelatorioFinanceiro com um método público gerarRelatorio(). No pacote
+contabilidade, crie uma classe Contador que instancia RelatorioFinanceiro e chama o
+método gerarRelatorio().
