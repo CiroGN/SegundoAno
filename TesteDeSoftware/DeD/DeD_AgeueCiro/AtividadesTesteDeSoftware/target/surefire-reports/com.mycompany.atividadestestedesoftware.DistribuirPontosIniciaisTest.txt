@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.atividadestestedesoftware.DistribuirPontosIniciaisTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.192 s <<< FAILURE! -- in com.mycompany.atividadestestedesoftware.DistribuirPontosIniciaisTest
+com.mycompany.atividadestestedesoftware.DistribuirPontosIniciaisTest.testCalculaModificadorAtributo_Valor1 -- Time elapsed: 0.095 s <<< ERROR!
+java.lang.IllegalArgumentException: Não existe modificador de atributo para esse valor!!
+	at com.mycompany.atividadestestedesoftware.DistribuirPontosIniciais$ModificadorDefault.calcular(DistribuirPontosIniciais.java:172)
+	at com.mycompany.atividadestestedesoftware.DistribuirPontosIniciais$ModificadorContext.calcular(DistribuirPontosIniciais.java:64)
+	at com.mycompany.atividadestestedesoftware.DistribuirPontosIniciais.calculaModificadorAtributo(DistribuirPontosIniciais.java:21)
+	at com.mycompany.atividadestestedesoftware.DistribuirPontosIniciaisTest.testCalculaModificadorAtributo_Valor1(DistribuirPontosIniciaisTest.java:50)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
