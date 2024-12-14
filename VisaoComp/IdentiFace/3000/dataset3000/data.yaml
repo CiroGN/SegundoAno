@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['This dataset was exported via roboflow.com on December 13- 2024 at 4-24 PM GMT', 'face']
+
+roboflow:
+  workspace: cirogn
+  project: identiface-3k
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cirogn/identiface-3k/dataset/2
