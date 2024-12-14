@@ -22,6 +22,6 @@ if __name__ == "__main__":
         save=True,
         imgsz=320,
         conf=0.5,
-        project="SegundoAno/VisaoComp/IdentiFace/500/dataset500",
+        project="SegundoAno/VisaoComp/IdentiFace/500",
         name = "previsao"
     )
