@@ -2,8 +2,8 @@ train: ../train/images
 val: ../valid/images
 test: ../test/images
 
-nc: 1
-names: ['face']
+nc: 2
+names: ['face', 'undefined']
 
 roboflow:
   workspace: cirogn
