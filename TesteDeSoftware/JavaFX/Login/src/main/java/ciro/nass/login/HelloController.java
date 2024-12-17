@@ -1,4 +1,4 @@
-package ciro.nass.desktop;
+package ciro.nass.login;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
