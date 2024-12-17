@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ciro.nass</groupId>
-    <artifactId>Login</artifactId>
+    <artifactId>login</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>Login</name>
+    <name>login</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
