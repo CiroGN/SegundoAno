@@ -34,7 +34,6 @@ def save_image(image, directory, filename):
     image.save(filepath)
     print(f"Imagem salva em: {filepath}")
 
-# Exemplo de uso
 if __name__ == "__main__":
     input_image = Image.open("C:/Users/cirog/source/SegundoAno/PDI/AtivFiltros/imagem.jpg")
     mean_filtered_image = apply_mean_filter(input_image)
