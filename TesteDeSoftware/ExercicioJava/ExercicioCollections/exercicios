@@ -1,0 +1,78 @@
+Exercícios sobre Listas
+1. ArrayList: Crie uma ArrayList de números inteiros e insira 10 números aleatórios entre 1 e
+100. Em seguida, ordene a lista em ordem crescente e imprima os valores ordenados.
+
+2. ArrayList: Crie uma ArrayList de nomes de cidades e adicione 5 cidades à lista. Verifique
+se uma cidade específica existe na lista e, se sim, imprima sua posição.
+
+3. LinkedList: Crie uma LinkedList de caracteres e adicione as letras de A a Z. Depois,
+remova os primeiros 5 elementos e exiba o conteúdo restante.
+
+4. LinkedList: Implemente uma lista duplamente encadeada com os nomes de 5 planetas.
+Adicione um planeta no início da lista e outro no final, depois percorra a lista em ordem
+inversa, imprimindo cada elemento.
+
+5. Vector: Crie um Vector de números decimais e adicione 5 valores. A cada novo valor
+adicionado, verifique o tamanho atual do vetor e imprima-o. Exclua um dos valores e exiba
+o novo conteúdo.
+
+6. CopyOnWriteArrayList: Implemente uma CopyOnWriteArrayList para armazenar IDs de
+usuários online. Simule uma situação onde novos IDs são adicionados e excluídos enquanto
+os elementos da lista são iterados.
+
+Exercícios sobre Maps
+7. HashMap: Crie um HashMap para armazenar o nome de estudantes como chave e suas
+notas finais como valor. Insira pelo menos 5 entradas. Em seguida, percorra o mapa e exiba
+apenas os alunos que obtiveram nota acima de 7.
+
+8. HashMap: Implemente uma HashMap que armazene o nome de produtos e seus respectivos
+preços. Solicite que o usuário insira o nome de um produto e retorne o preço, ou exiba uma
+mensagem caso o produto não esteja no mapa.
+
+9. LinkedHashMap: Crie um LinkedHashMap para armazenar os nomes dos continentes e a
+quantidade de países em cada continente. Exiba os continentes em ordem de inserção e
+depois atualize a quantidade de países para um dos continentes.
+
+10.LinkedHashMap: Implemente um LinkedHashMap para associar meses do ano (como
+inteiros) aos nomes dos meses. Percorra e exiba os elementos em ordem de inserção, mas
+remova todos os meses que têm um número par.
+
+11.TreeMap: Crie um TreeMap onde a chave é o nome de uma cidade e o valor é sua
+população. Adicione pelo menos 5 cidades e exiba a cidade com a menor população e a
+cidade com a maior população.
+
+12.TreeMap: Em um TreeMap, insira os nomes de 5 frutas e o número de calorias por porção.
+Ordene em ordem crescente de calorias e exiba o conteúdo do mapa.
+
+13.ConcurrentHashMap: Simule uma lista de produtos em estoque usando
+ConcurrentHashMap, onde a chave é o nome do produto e o valor é a quantidade em
+estoque. Crie uma thread que diminui o estoque conforme produtos são "vendidos" e outra
+thread que aumenta o estoque conforme produtos são "repostos".
+
+14.Hashtable: Crie um Hashtable para armazenar as notas de alunos, onde a chave é o número
+de matrícula e o valor é a nota. Busque o número de matrícula de um aluno e verifique se ele
+está no Hashtable. Caso esteja, atualize sua nota.
+
+Exercícios sobre Sets
+15.HashSet: Crie um HashSet para armazenar uma lista de números inteiros. Adicione 10
+números, sendo que alguns são repetidos. Exiba o conteúdo do conjunto e observe que os
+elementos duplicados são ignorados.
+
+16.HashSet: Crie um HashSet para armazenar nomes de animais. Adicione pelo menos 5
+animais. Remova um animal específico e exiba o conjunto novamente para verificar a
+remoção.
+
+17.LinkedHashSet: Crie um LinkedHashSet de cores e adicione pelo menos 6 cores diferentes.
+Adicione uma cor duplicada e imprima o conjunto para confirmar a ordem de inserção e a
+ausência de duplicatas.
+
+18.LinkedHashSet: Implemente um LinkedHashSet que armazene palavras de uma frase.
+Solicite uma frase ao usuário, divida-a em palavras e adicione cada palavra ao conjunto,
+depois exiba a frase sem palavras duplicadas.
+
+19.TreeSet: Crie um TreeSet para armazenar números inteiros. Adicione 10 números aleatórios
+e imprima o menor e o maior número. Em seguida, imprima o conjunto para confirmar a
+ordenação natural.
+
+20.TreeSet: Crie um TreeSet que armazene nomes de cidades. Permita que o usuário insira 5
+nomes de cidades e exiba a lista ordenada em ordem alfabética.

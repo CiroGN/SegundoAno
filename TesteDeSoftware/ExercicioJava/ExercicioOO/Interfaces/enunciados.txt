@@ -1,0 +1,15 @@
+11.Interface Básica: Crie uma interface Imprimivel com o método imprimir(). Implemente esta
+interface nas classes Documento e Foto. Cada implementação deve exibir uma mensagem
+indicando o tipo de impressão.
+
+12.Interface com Constantes: Crie uma interface Veiculo com um atributo constante
+VELOCIDADE_MAXIMA. Implemente a interface na classe Carro, que usa o valor de
+VELOCIDADE_MAXIMA para limitar sua velocidade.
+
+13.Interface com Polimorfismo: Crie uma interface OperacaoMatematica com métodos
+adicionar, subtrair, multiplicar e dividir. Implemente a interface em uma classe Calculadora.
+Crie uma lista de operações e use polimorfismo para realizar diferentes cálculos.
+
+14.Interface com Várias Classes: Crie duas interfaces, Voador e Nadador, com métodos voar()
+e nadar(). Implemente essas interfaces em classes Pato, Aguia e Peixe para simular um
+comportamento específico.

@@ -1,0 +1,10 @@
+1. Classe Básica: Crie uma classe Pessoa com atributos nome e idade. Adicione um construtor
+para inicializar esses valores e um método para exibir as informações da pessoa.
+
+2. Métodos e Atributos: Crie uma classe Carro com os atributos marca, modelo e ano.
+Adicione métodos para alterar e obter esses valores. Inclua também um método para exibir
+as informações do carro.
+
+3. Construtor com Sobrecarga: Crie uma classe Produto com atributos nome e preco.
+Adicione dois construtores: um que recebe ambos os atributos e outro que inicializa apenas
+o nome.

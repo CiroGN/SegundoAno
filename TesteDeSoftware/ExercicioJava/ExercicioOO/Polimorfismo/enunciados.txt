@@ -1,0 +1,12 @@
+8. Polimorfismo com Herança: Crie uma classe Forma com um método calcularArea(). Crie
+classes Circulo e Quadrado que herdam de Forma e sobrescrevem o método para calcular a
+área específica de cada forma. Utilize polimorfismo para calcular áreas de diferentes formas
+em uma lista.
+
+9. Polimorfismo com Sobrecarga: Crie uma classe Calculadora com dois métodos somar, um
+que recebe dois inteiros e outro que recebe dois double. Teste os métodos chamando somar
+com diferentes tipos de argumentos.
+
+10.Classes Abstratas: Crie uma classe abstrata Funcionario com um método abstrato
+calcularSalario(). Implemente duas subclasses, FuncionarioHorista e FuncionarioMensalista,
+que implementam o cálculo de salários de acordo com o tipo de funcionário.

@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 import org.junit.jupiter.api.BeforeEach;
 import static org.junit.jupiter.api.Assertions.*;
 
-class HumanoTest extends Humano {
+class HumanoTest extends Raca {
 
     @BeforeEach
     void setUp() {
