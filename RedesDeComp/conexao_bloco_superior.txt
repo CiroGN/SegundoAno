@@ -1,0 +1,2 @@
+Bloco didático não consegue pingar o adm superior para isso tem outro server http no bloco didático q só a vlan dele consegue acessar.
+dns sitefoda.ifpr.edu.br e sitebosta.ifpr.edu.br 
