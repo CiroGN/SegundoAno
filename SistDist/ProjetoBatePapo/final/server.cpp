@@ -9,7 +9,6 @@
 #include "chat.pb.h"
 
 std::unordered_map<int, std::string> clients;  // Map de socket -> nome do cliente
-std::unordered_map<int, std::string> clients_names;  // Map de socket -> nome do cliente
 std::mutex clients_mutex;  // Mutex para proteger o acesso à lista de clientes
 
 // Função para enviar mensagens para todos os clientes conectados
